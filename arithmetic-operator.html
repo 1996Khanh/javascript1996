@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Arithmetic Operator</title>
+  <link rel="stylesheet" href="css/c02.css" />
+</head>
+<body>
+  <h1>Elderflower</h1>
+  <div id="content">
+      <div class="message number">Subtotal: $<span id="subtotal">&nbsp;</span></div>
+      <div class="message number">Shipping: $<span id="shipping">&nbsp;</span></div>
+      <div class="message number">Total: $<span id="total">&nbsp;</span></div>
+  </div>
+  <script>
+      var a = 10;
+      var b = 15;
+      var subtotal = document.getElementById('subtotal');
+      subtotal.textContent = a ;
+      var shipping = document.getElementById('shipping');
+      shipping.textContent = b;
+      var total = document.getElementById("total");
+      total.textContent = a * b;
+  </script>
+</body>
+</html>

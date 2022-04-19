@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic JavaScript Instructions - Update Variable</title>
+    <link rel="stylesheet" href="css/c02.css" />
+  </head>
+  <body>
+    <h1>Elderflower</h1>
+    <div id="content">
+      <div class="message">Available: <span id="stock"></span></div>
+      <div class="message">Shipping: <span id="shipping"></span></div>
+    </div>
+
+  </body>
+    <script>
+      var inStock;
+      var inShipping;
+      inStock = true;
+      inShipping = false;
+      var elStock = document.getElementById('stock');
+      elStock.className = inStock;
+      var elShipping = document.getElementById('shipping');
+      elShipping.className = inShipping;
+
+    </script>
+</html>

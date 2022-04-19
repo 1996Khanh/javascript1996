@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic JavaScript Instructions - String Variable</title>
+    <link rel="stylesheet" href="css/c02.css" />
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <h1>Elderflower</h1>
+    <div id="content">
+      <div id="title">Howdy <span id="name">friend</span>!</div>
+      <div id="note">Take a look around...</div>
+    </div>
+    <script>
+      var ten = 'KHÁNH';
+      var chao = 'Rất vui được làm quen với bạn';
+      var tens = document.getElementById('name');
+      tens.textContent = ten;
+      var chaos = document.getElementById('note');
+      chaos.textContent = chao + ' ' + ten;
+    </script>
+  </body>
+</html>
